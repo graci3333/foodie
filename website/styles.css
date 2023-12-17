@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(top-view-dishes-with-pasta-glass-wine.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position: no-repeat;
+}
+
+header {
+    background-color: #FF6700;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 0.1em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.welcome {
+    background-color: rgb(251, 217, 178);
+    padding: 1px;
+    border: 1px solid #FF6700;
+    border-radius: 20px;
+    width: 1000px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display:inline;
+    margin-right: 20px;
+}
+nav a {
+    text-decoration: none;
+}
+
+section {
+    padding: 30px;
+}
+
+footer {
+    background-color: #FF6700;
+    color: wheat;
+    text-align: center;
+    padding: 0.6em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+button {
+    background-color: #FF9248;
+    color: white;
+    border: none;
+    padding: 15px 70px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #FF6700;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFB38A;
+    padding: 10px;
+}
+.box {
+    width: 1000px;
+            height: 1100px;
+            background-color: rgb(251, 217, 178); /* Background color */
+            color: white;
+            text-align: center;
+            line-height: 17px;
+            border: 1.5px solid #dc8c60;
+            border-radius: 40px;
+            margin-bottom: 20px;
+            margin-left: 100px;
+}
+h4 {
+    text-align: center;
+    color: #FF6700;
+}
+
+p {
+    text-align: center;
+    padding-right: 90px;
+    padding-left: 90px;
+    font-size: 15px;
+    color: #da7c3e;
+}
+h3 {
+    margin-top: 60px;
+    color: #FF6700;
+}
+.Recipes {
+    background-color: rgb(251, 217, 178);
+    padding: 1px;
+    margin-bottom: 20px;
+    border: 1px solid #FF6700;
+    border-radius: 20px;
+}
+h2 {
+    text-align: center;
+    color: #FF6700;
+    margin-top: 50px;
+}
+
+.adobo img {
+    width: 400px;
+    height: auto;
+    border-radius: 15px;
+    border:1px solid #FF6700;
+}
+.sinigang img {
+    width: 400px;
+    height: auto;
+    border-radius: 15px;
+    border:1px solid #FF6700;
+}
+.adobo {
+    background-color: rgb(249, 236, 208);
+    border-radius: 15px;
+    width: 700px;
+    height: 500px;
+    margin-left: 150px;
+    border: 1px solid #dc8c60;
+    margin-bottom: 20px;
+}
+.sinigang {
+    background-color: rgb(249, 236, 208);
+    border-radius: 15px;
+    width: 700px;
+    height: 450px;
+    margin-left: 150px;
+    border: 1px solid #dc8c60;
+    margin-bottom: 20px;
+}
+.contactusbox {
+    width: 1000px;
+    height: 300px;
+    background-color: rgb(251, 217, 178); /* Background color */
+    color: white;
+    text-align: center;
+    line-height: 17px;
+    border: 1.5px solid #dc8c60;
+    border-radius: 40px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+.footfont{
+    color: white;
+}
+.contact{
+    background-color: rgb(249, 236, 208);
+    border-radius: 15px;
+    width: 900px;
+    height: 220px;
+    margin-left: 50px;
+    border: 1px solid #dc8c60;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
